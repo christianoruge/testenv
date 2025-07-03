@@ -1,0 +1,14 @@
+{
+    "containerApps.deploymentConfigurations": [
+        {
+            "label": "testapp-lin",
+            "type": "AcrDockerBuildRequest",
+            "dockerfilePath": "Dockerfile",
+            "srcPath": ".",
+            "envPath": "",
+            "resourceGroup": "corals-container-env",
+            "containerApp": "testapp-lin",
+            "containerRegistry": "coralscontainerreg"
+        }
+    ]
+}
